@@ -1,2 +1,2 @@
 # Cric07WidescreenHUDFix
-Widescreen HUD implementation for EA Cricket 2007 on PC through custom RFEs.
+Widescreen (16:9) HUD implementation for EA Cricket 2007 on PC through editing RFEs.
