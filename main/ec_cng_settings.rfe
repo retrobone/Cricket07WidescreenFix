@@ -1,0 +1,663 @@
+<?xml version = "1.0" encoding = "US-ASCII"?>
+<Screen ID = "64"
+	DefaultWindow = 1
+	DefaultButton = "3"
+	ShowFrame = "1"
+	ShowEAMedal = "1"
+	MsgTrianglePress = "fez:GoToScreen(32)"
+	MsgTransitionIn = "OnSYncDifficulty"
+       	MsgXPress = "fez:GoToScreen(43)"
+>
+
+
+
+
+
+<!-- ANIMATIONS -->
+
+
+	<!-- DOT-ON-LINES ANIMATION -->
+	<AnimationDesc Name = "Dot"
+		Event = "3"
+	>
+		<AnimAttribute Type = "5"
+			InitialTime = "0"
+			FinishTime = "1.2"
+			InitialValue = "0"
+			FinalValue = "200"
+		/>
+		<AnimAttribute Type = "1"
+			InitialTime = "0"
+			FinishTime = "1.4"
+			InitialValue = "@0"
+			FinalValue = "@314"
+		/>
+		<AnimAttribute Type = "2"
+			InitialTime = "1.4"
+			FinishTime = "2.4"
+			InitialValue = "@0"
+			FinalValue = "@82"
+		/>
+		<AnimAttribute Type = "1"
+			InitialTime = "2.4"
+			FinishTime = "3.2"
+			InitialValue = "@314"
+			FinalValue = "@512"
+		/>
+		<AnimAttribute Type = "5"
+			InitialTime = "2.6"
+			FinishTime = "3.2"
+			InitialValue = "200"
+			FinalValue = "0"
+		/>	
+
+	
+		<AnimAttribute Type = "1"
+			InitialTime = "4.8"
+			FinishTime = "4.8"
+			InitialValue = "@512"
+			FinalValue = "@314"
+		/>
+		<AnimAttribute Type = "2"
+			InitialTime = "4.8"
+			FinishTime = "4.8"
+			InitialValue = "@82"
+			FinalValue = "@119"
+		/>
+		<AnimAttribute Type = "5"
+			InitialTime = "4.8"
+			FinishTime = "5.0"
+			InitialValue = "0"
+			FinalValue = "200"
+		/>
+		<AnimAttribute Type = "2"
+			InitialTime = "4.8"
+			FinishTime = "5.2"
+			InitialValue = "@119"
+			FinalValue = "@82"
+		/>	
+		<AnimAttribute Type = "1"
+			InitialTime = "5.2"
+			FinishTime = "6.6"
+			InitialValue = "@314"
+			FinalValue = "@0"
+		/>
+		<AnimAttribute Type = "5"
+			InitialTime = "5.4"
+			FinishTime = "6.6"
+			InitialValue = "200"
+			FinalValue = "0"
+		/>
+
+	
+		<AnimAttribute Type = "1"
+			InitialTime = "7.8"
+			FinishTime = "7.8"
+			InitialValue = "@0"
+			FinalValue = "@512"
+		/>
+		<AnimAttribute Type = "2"
+			InitialTime = "7.8"
+			FinishTime = "7.8"
+			InitialValue = "@82"
+			FinalValue = "@0"
+		/>
+		<AnimAttribute Type = "5"
+			InitialTime = "7.8"
+			FinishTime = "8.4"
+			InitialValue = "0"
+			FinalValue = "200"
+		/>	
+		<AnimAttribute Type = "1"
+			InitialTime = "7.8"
+			FinishTime = "8.4"
+			InitialValue = "@512"
+			FinalValue = "@314"
+		/>
+		<AnimAttribute Type = "2"
+			InitialTime = "8.6"
+			FinishTime = "9.6"
+			InitialValue = "@0"
+			FinalValue = "@88"
+		/>
+		<AnimAttribute Type = "2"
+			InitialTime = "9.6"
+			FinishTime = "10.0"
+			InitialValue = "@82"
+			FinalValue = "@119"
+		/>
+		<AnimAttribute Type = "5"
+			InitialTime = "9.6"
+			FinishTime = "10.0"
+			InitialValue = "200"
+			FinalValue = "0"
+		/>
+	
+			
+		<AnimAttribute Type = "2"
+			InitialTime = "11.0"
+			FinishTime = "11.0"
+			InitialValue = "@119"
+			FinalValue = "@-62"
+		/>
+		<AnimAttribute Type = "5"
+			InitialTime = "11.0"
+			FinishTime = "11.2"
+			InitialValue = "0"
+			FinalValue = "200"
+		/>	
+		<AnimAttribute Type = "2"
+			InitialTime = "11.0"
+			FinishTime = "11.4"
+			InitialValue = "@-62"
+			FinalValue = "@0"
+		/>
+		<AnimAttribute Type = "1"
+			InitialTime = "11.4"
+			FinishTime = "12.8"
+			InitialValue = "@314"
+			FinalValue = "@0"
+		/>
+		<AnimAttribute Type = "5"
+			InitialTime = "11.4"
+			FinishTime = "12.8"
+			InitialValue = "200"
+			FinalValue = "0"
+		/>
+
+	
+		<AnimAttribute Type = "2"
+			InitialTime = "14"
+			FinishTime = "14"
+			InitialValue = "@0"
+			FinalValue = "@82"
+		/>
+		<AnimAttribute Type = "5"
+			InitialTime = "14"
+			FinishTime = "15.2"
+			InitialValue = "0"
+			FinalValue = "200"
+		/>	
+		<AnimAttribute Type = "1"
+			InitialTime = "14"
+			FinishTime = "15.4"
+			InitialValue = "@0"
+			FinalValue = "@314"
+		/>
+		<AnimAttribute Type = "2"
+			InitialTime = "15.4"
+			FinishTime = "16.4"
+			InitialValue = "@82"
+			FinalValue = "@0"
+		/>
+		<AnimAttribute Type = "2"
+			InitialTime = "16.4"
+			FinishTime = "16.8"
+			InitialValue = "@0"
+			FinalValue = "@-62"
+		/>
+		<AnimAttribute Type = "5"
+			InitialTime = "16.6"
+			FinishTime = "16.8"
+			InitialValue = "200"
+			FinalValue = "0"
+		/>
+		<AnimAttribute Type = "1"
+			InitialTime = "18"
+			FinishTime = "18"
+			InitialValue = "@314"
+			FinalValue = "@0"
+		/>
+		<AnimAttribute Type = "2"
+			InitialTime = "18"
+			FinishTime = "18"
+			InitialValue = "@-62"
+			FinalValue = "@0"
+		/>	
+	</AnimationDesc>
+	<!-- END DOT-ON-BOX ANIMATION -->
+	
+<!-- END ANIMATIONS -->
+
+
+
+	<!-- MENU BOX -->
+	<Window ID = "4"
+		xPos = "117.00000"
+	 	yPos = "147.000000"
+	 	Width = "0.000000"
+	 	Height = "0.000000"
+	 	State = "2"
+	>
+		<GraphicButton ID = "0"
+			xPos = "0.000000"
+		 	yPos = "0.00"
+		 	Width = "512.000000"
+			Height = "64.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+		 	Down = "0"
+		 	BGColor = "ffffffff"
+		 	Texture = "boxtop"
+			>
+		</GraphicButton>
+		
+		<GraphicButton ID = "1"
+			xPos = "0.000000"
+		 	yPos = "64.00"
+		 	Width = "512.000000"
+			Height = "70.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+		 	Down = "0"
+		 	BGColor = "ffffffff"
+		 	Texture = "boxside"
+			>
+		</GraphicButton>
+		
+		<GraphicButton ID = "2"
+			xPos = "0.000000"
+		 	yPos = "134.00"
+		 	Width = "512.000000"
+			Height = "64.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+		 	Down = "0"
+		 	BGColor = "ffffffff"
+		 	Texture = "boxbott"
+			>
+		</GraphicButton>
+		<GraphicButton ID = "4"
+			xPos = "20.00000"
+		 	yPos = "50.00"
+		 	Width = "16.000000"
+			Height = "16.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+		 	Down = "0"
+		 	BGColor = "ffffffaa"
+		 	Texture = "whitedot"
+			>
+			<Animation Name = "Dot" />
+		</GraphicButton>
+	</Window>
+	<!-- END MENU BOX -->
+
+
+
+
+
+	<!-- SELECT BAR -->
+	<Window ID = "21"
+		xPos = "462.000000"
+	 	yPos = "214.000000"
+	 	Width = "355.000000"
+	 	Height = "20.000000"
+	 	State = "2"
+	>
+		<GraphicButton ID = "0"
+			xPos = "0.000000"
+		 	yPos = "-8.00"
+		 	Width = "512.000000"
+			Height = "32.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+		 	Down = "0"
+		 	BGColor = "ffffffff"
+		 	Texture = "slct1"
+			>
+		</GraphicButton>
+		
+	</Window>
+	<!-- END SELECT BAR -->
+
+	
+
+
+	
+	<!-- MENU -->
+	<Window ID = "1"
+		xPos = "232.000000"
+		yPos = "214.000000"
+		Width = "0.000000"
+		Height = "0.000000"
+		State = "2"
+	>
+		<TextButton ID = "1"
+			xPos = "0.000000"
+		 	yPos = "0.00"
+		 	Width = "200.000000"
+		 	Height = "26.000000"
+		 	Left = "0"
+		 	Right = "0"
+		 	Up = "0"
+		 	Down = "0"
+		 	BGColor = "00000000"
+		 	FontColor = "dcdcdcff"
+		 	Font = "1"
+			Justification = "2"
+		 	Text = "$334"
+		>
+		</TextButton>
+		<ToggleButton ID = "3"
+		 	xPos = "270.000000"
+		 	yPos = "0.000000"
+		 	Width = "160.000000"
+		 	Height = "17.000000"
+		 	Left = "0"
+		 	Right = "0"
+		 	Up = "9"
+		 	Down = "7"
+		 	BGColor = "00000000"
+			PickRegion = "240 0 190 22"
+		 	FontColor = "f1e2b4f"
+		 	Font = "1"
+		 	Style = "1"
+		 	TextGap = "4"
+		 	LeftArrow = "llarroff"
+		 	RightArrow = "lrarroff"
+		 	LeftArrowPressed = "llarron"
+		 	RightArrowPressed = "lrarron"
+		 	LeftArrowOver = "llarroff"
+		 	RightArrowOver = "lrarroff"
+		 	LeftArrowVisible = "0"
+		 	RightArrowVisible = "0"
+		 	ArrowsYPos = "0"
+		 	ArrowsWidth = "16"
+		 	ArrowsHeight = "16"
+			MouseHighlightable = "1"
+			Justification = "1"
+			Text = "$383"
+		 	Default = ""
+			MsgMouseOver = "ToggleOptionMouseOver"
+			MsgMouseOff = "ToggleOptionMouseOff"
+		 	MsgUpPress = "FeButtonOnUp"
+		 	MsgDownPress = "FeButtonOnDown"
+		 	MsgLeftPress = "OnToggleLeft"
+		 	MsgRightPress = "OnToggleRight"
+			MsgLeftRelease = "OnFeArrowRelease"
+			MsgRightRelease = "OnFeArrowRelease"
+			>
+		</ToggleButton>
+
+		<TextButton ID = "6"
+			xPos = "0.000000"
+		 	yPos = "22.00"
+		 	Width = "200.000000"
+		 	Height = "26.000000"
+		 	Left = "0"
+		 	Right = "0"
+		 	Up = "0"
+		 	Down = "0"
+		 	BGColor = "00000000"
+		 	FontColor = "dcdcdcff"
+		 	Font = "1"
+			Justification = "2"
+		 	Text = "$190"
+		>
+		</TextButton>
+		<ToggleButton ID = "7"
+		 	xPos = "270.000000"
+		 	yPos = "22.000000"
+		 	Width = "160.000000"
+		 	Height = "17.000000"
+		 	Left = "0"
+		 	Right = "0"
+		 	Up = "3"
+		 	Down = "9"
+		 	BGColor = "00000000"
+			PickRegion = "240 22 190 22"
+		 	FontColor = "f1e2b4f"
+		 	Font = "1"
+		 	Style = "1"
+		 	TextGap = "4"
+		 	LeftArrow = "llarroff"
+		 	RightArrow = "lrarroff"
+		 	LeftArrowPressed = "llarron"
+		 	RightArrowPressed = "lrarron"
+		 	LeftArrowOver = "llarroff"
+		 	RightArrowOver = "lrarroff"
+		 	LeftArrowVisible = "0"
+		 	RightArrowVisible = "0"
+		 	ArrowsYPos = "0"
+		 	ArrowsWidth = "16"
+		 	ArrowsHeight = "16"
+			MouseHighlightable = "1"
+			Justification = "1"
+		 	Text = "50 Overs|10 Overs|20 Overs"
+		 	Default = ""
+			MsgMouseOver = "ToggleOptionMouseOver"
+			MsgMouseOff = "ToggleOptionMouseOff"
+		 	MsgUpPress = "FeButtonOnUp"
+		 	MsgDownPress = "FeButtonOnDown"
+		 	MsgLeftPress = "OnToggleLeft"
+		 	MsgRightPress = "OnToggleRight"
+			MsgLeftRelease = "OnFeArrowRelease"
+			MsgRightRelease = "OnFeArrowRelease"
+		>
+		</ToggleButton>
+
+		<TextButton ID = "8"
+		 	xPos = "0.000000"
+			yPos = "44.000000"
+			Width = "200.000000"
+			Height = "20.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+			Down = "0"
+			BGColor = "ffffffff"
+		 	FontColor = "dcdcdcff"
+		 	Font = "1"
+			Justification = "2"
+       			Text = "$573"
+		>
+		</TextButton>
+		<GraphicButton ID = "22"
+			xPos = "290.000000"
+		 	yPos = "43.00"
+		 	Width = "128.000000"
+			Height = "32.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+		 	Down = "0"
+		 	BGColor = "dcdcdcff"
+		 	Texture = "stars"
+			>
+		</GraphicButton>
+		<ToggleButton ID = "9"
+		 	xPos = "270.000000"
+			yPos = "44.000000"
+			Width = "160.000000"
+			Height = "20.000000"
+			Left = "2"
+			Right = "2"
+			Up = "7"
+		 	Down = "3"
+			BGColor = "00000000"
+			FontColor = "dcdcdcff"
+			Font = "1"
+			Justification = "0"
+			Style = "1"
+			TextGap = "15"
+		 	LeftArrow = "llarroff"
+		 	RightArrow = "lrarroff"
+		 	LeftArrowPressed = "llarron"
+		 	RightArrowPressed = "lrarron"
+		 	LeftArrowOver = "llarroff"
+		 	RightArrowOver = "lrarroff"
+			LeftArrowVisible = "0"
+			RightArrowVisible = "0"
+ArrowsYPos = "1"
+			ArrowsWidth = "16"
+			ArrowsHeight = "16"
+       			Text = ""
+			Default = ""
+			PickRegion = "270 44 160 22"
+			MouseHighlightable = "1"
+			MsgMouseOver = "ToggleOptionMouseOver"
+			MsgMouseOff = "ToggleOptionMouseOff"
+			MsgUpPress = "FeSelectableObjectOnUp"
+			MsgDownPress = "FeSelectableObjectOnDown"
+			MsgLeftPress = "OnDifficultyLeft"
+       			MsgRightPress = "OnDifficultyRight"
+			MsgLeftRelease = "OnFeArrowRelease"
+			MsgRightRelease = "OnFeArrowRelease"
+		>
+		</ToggleButton>
+		<GraphicButton ID = "999"
+			xPos = "290.000000"
+		 	yPos = "43.00"
+		 	Width = "128.000000"
+			Height = "32.000000"
+			Left = "0"
+			Right = "0"
+			Up = "20"
+		 	Down = "2"
+		 	BGColor = "ecc301ff"
+		 	Texture = "stars"
+			>
+		</GraphicButton>
+	</Window>
+	<!-- END MENU -->
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+	
+
+	
+	<!-- PAGE TITLE -->
+	<Window ID = "100"
+	 	xPos = "152.00000"
+	 	yPos = "4.00"
+	 	Width = "0.000000"
+	 	Height = "0.000000"
+	 	State = "1"
+	>
+		<GraphicButton ID = "100"
+		 	xPos = "0.000000"
+		 	yPos = "25.00"
+		 	Width = "70.000000"
+		 	Height = "70.000000"
+		 	Left = "0"
+		 	Right = "0"
+		 	Up = "0"
+		 	Down = "0"
+			BGColor = "ffffffff"
+		 	Texture = "l2cng"
+		>
+</GraphicButton>
+		<TextButton ID = "10"
+		 	xPos = "75.000000"
+		 	yPos = "13.00"
+		 	Width = "400.000000"
+		 	Height = "60.000000"
+		 	Left = "0"
+		 	Right = "0"
+		 	Up = "0"
+		 	Down = "0"
+		 	BGColor = "00000000"
+		 	FontColor = "dcdcdcff"
+		 	Font = "2"
+			 Justification = "0"
+			 VJustification = "1"
+		 	Text = "$423"
+		>
+		</TextButton>
+	</Window>
+	<!-- END PAGE TITLE -->
+
+	<!-- HELP TEXT -->
+	<Window ID = "90"
+	 	xPos = "560.000000"
+	 	yPos = "418.00"
+	 	Width = "0.000000"
+	 	Height = "0.000000"
+	 	State = "2"
+	>
+		<GraphicButton ID = "5"
+		 	xPos = "-130.000000"
+		 	yPos = "0.00"
+		 	Width = "32.000000"
+		 	Height = "32.000000"
+		 	Left = "0"
+		 	Right = "0"
+		 	Up = "0"
+		 	Down = "0"
+		 	BGColor = "ffffffff"
+		 	Texture = "btriang"
+		>
+		</GraphicButton>
+		<TextButton ID = "4"
+		 	xPos = "-100.000000"
+		 	yPos = "0.00"
+		 	Width = "190.000000"
+		 	Height = "32.000000"
+		 	Left = "0"
+		 	Right = "0"
+		 	Up = "0"
+		 	Down = "0"
+		 	BGColor = "00000000"
+		 	FontColor = "dcdcdcff"
+			Font = "4"
+			Justification = "0"
+			VJustification = "1"
+			Text = "$1"
+			PickRegion = "-130 7 130 20"
+			MsgXPress = "fez:GoToScreen(32)"
+		>
+		</TextButton>
+		<GraphicButton ID = "7"
+		 	xPos = "10.000000"
+		 	yPos = "0.00"
+		 	Width = "32.000000"
+		 	Height = "32.000000"
+		 	Left = "0"
+		 	Right = "0"
+		 	Up = "0"
+		 	Down = "0"
+		 	BGColor = "ffffffff"
+		 	Texture = "bx"
+		>
+		</GraphicButton>
+		<TextButton ID = "6"
+		 	xPos = "40.000000"
+		 	yPos = "0.00"
+		 	Width = "190.000000"
+		 	Height = "32.000000"
+		 	Left = "0"
+		 	Right = "0"
+		 	Up = "0"
+		 	Down = "0"
+		 	BGColor = "00000000"
+		 	FontColor = "dcdcdcff"
+			Font = "4"
+			Justification = "0"
+			VJustification = "1"
+			Text = "$2"
+			MsgXPress = "fez:GoToScreen(43)"
+			PickRegion = "10 7 130 20"
+		>
+		</TextButton>
+	</Window>
+	<!-- END HELP TEXT -->
+
+
+
+</Screen>
