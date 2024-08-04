@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<Screen ID = "608"
+	DefaultButton = "0"
+	DefaultWindow = "0"
+	PlayBG = "0"
+	PlayTheme = "0"
+	ShowFrame = "1"
+	ShowEAMedal = "1"
+	MsgXPress = "OnTeamSelectDone"
+	MsgTransitionIn = "IgControllerTeamSelectInit"
+>
+	
+	
+       	
+	<!-- BACKDROP -->
+	<Window ID = "1000"
+	 	xPos = "152.00000"
+		yPos = "53.00"
+		Width = "0.000000"
+		Height = "0.000000"
+       		State = "2"
+	>
+		<GraphicButton ID = "0"		
+			xPos = "0.000"
+			yPos = "0.00"
+			Width = "550"
+			Height = "367"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+			Down = "0"
+			BGColor = "000000d0"
+			Texture = ""
+		>
+		</GraphicButton>
+		<GraphicButton ID = "1"
+			xPos = "0.000"
+			yPos = "-1"
+			Width = "3"
+			Height = "368"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+			Down = "0"
+			BGColor = "dcdcdcff"
+			Texture = ""
+		>
+		</GraphicButton>
+		<GraphicButton ID = "3"
+			xPos = "547.000"
+			yPos = "-1"
+			Width = "3"
+			Height = "368"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+			Down = "0"
+			BGColor = "dcdcdcff"
+			Texture = ""
+		>
+		</GraphicButton>
+	</Window>
+	<!-- END BACKDROP -->
+
+
+
+
+
+
+	<!-- DECOR -->
+	<Window ID = "80"
+		xPos = "363"
+		yPos = "75"
+		Width = "128"
+		Height = "0"
+		State = "2"
+	>
+		<GraphicButton ID = "1"
+			xPos = "72.000000"
+		 	yPos = "-6.00"
+		 	Width = "180.000000"
+			Height = "16.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+		 	Down = "0"
+		 	BGColor = "dcdcdcff"
+			Texture = "hspikel"
+			Rotation = "90"
+		>
+		</GraphicButton>
+		<GraphicButton ID = "1"
+			xPos = "72.000000"
+		 	yPos = "174.00"
+		 	Width = "180.000000"
+			Height = "16.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+		 	Down = "0"
+		 	BGColor = "dcdcdcff"
+			Texture = "hspiker"
+			Rotation = "90"
+		>
+		</GraphicButton>
+	</Window>
+
+
+
+
+
+
+
+
+
+
+	<!--  Bowl TEAM  -->
+	<Window ID = "10"
+		xPos = "207.000000"
+		yPos = "135.000000"
+		Width = "0.000000"
+		Height = "0.000000"
+		State = "2"
+	>
+		<GraphicButton ID = "10"
+			FillType = "0"
+			xPos = "38.000000"
+			yPos = "25.00"
+			Width = "128.000000"
+			Height = "128.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+			Down = "0"
+			BGColor = "ffffffff"
+			Texture = "trbowl"
+		>
+		</GraphicButton>
+		<TextButton ID = "11"
+			xPos = "0.000000"
+			yPos = "155.00"
+			Width = "200.000000"
+			Height = "22.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+			Down = "0"
+			BGColor = "00000000"
+			FontColor = "f1e2b4ff"
+			Font = "7"
+			Text = "$6"
+			Justification = "1"
+		>
+		</TextButton>
+	</Window>
+
+
+
+	<!--  AWAY TEAM  -->
+	<Window ID = "20"
+		xPos = "446.000000"
+		yPos = "135.000000"
+		Width = "0.000000"
+		Height = "0.000000"
+		State = "2"
+	>
+		<GraphicButton ID = "10"
+			FillType = "0"
+			xPos = "38.000000"
+			yPos = "25.00"
+			Width = "128.000000"
+			Height = "128.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+			Down = "0"
+			BGColor = "ffffffff"
+			Texture = "trbat"
+		>
+		</GraphicButton>
+		<TextButton ID = "11"
+			xPos = "0.000000"
+			yPos = "155.00"
+			Width = "200.000000"
+			Height = "22.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+			Down = "0"
+			BGColor = "00000000"
+			FontColor = "f1e2b4ff"
+			Font = "7"
+			Text = "$5"
+			Justification = "1"
+		>
+		</TextButton>
+	</Window>
+
+
+
+
+
+
+	<!-- CONTROLLERS -->
+	<Window ID = "30"
+	 	xPos = "267.000000"
+		yPos = "35.00"
+		Width = "128.000000"
+		Height = "128.000000"
+       		State = "3"
+	>
+		<GraphicButton ID = "0"
+			 xPos = "107.0000"
+			 yPos = "64.00"
+			 Width = "108.000000"
+			 Height = "54.000000"
+			 Left = "0"
+			 Right = "0"
+			 Up = "0"
+			 Down = "0"
+			 BGColor = "ffffffff"
+			 Texture = "cntrlr1"
+			 MsgXPress = "OnCheckControllers"
+		>
+		</GraphicButton>
+		<GraphicButton ID = "2"
+			 xPos = "107.0000"
+			 yPos = "86.00"
+			 Width = "16.000000"
+			 Height = "16.000000"
+			 Left = "0"
+			 Right = "0"
+			 Up = "0"
+			 Down = "0"
+			 BGColor = "095affff"
+			 PickRegion = "107 86 16 16"			 Texture = "scroll12"
+			 PickRegion = "107 86 16 16"			 MsgXPress = "MoveControllerLeft"
+		>
+		</GraphicButton>
+		<GraphicButton ID = "3"
+			xPos = "197.00000"
+			yPos = "86.00"
+			Width = "16.000000"
+			Height = "16.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+			Down = "0"
+			BGColor = "095affff"
+			Texture = "scroll13"
+			 PickRegion = "197 86 16 16"
+			 MsgXPress = "MoveControllerRight"
+		>
+		</GraphicButton>
+	</Window>
+
+
+	<Window ID = "40"
+	 	xPos = "267.000000"
+		yPos = "90.00"
+		Width = "128.000000"
+		Height = "128.000000"
+		State = "3"
+	>
+		<GraphicButton ID = "0"
+			 xPos = "0.000000"
+			 yPos = "64.00"
+			 Width = "108.000000"
+			 Height = "54.000000"
+			 Left = "0"
+			 Right = "0"
+			 Up = "0"
+			 Down = "0"
+			 BGColor = "ffffffff"
+			 Texture = "cntrlr2"
+			 MsgXPress = "OnCheckControllers"
+		>
+		</GraphicButton>
+		<GraphicButton ID = "2"
+			 xPos = "0.000000"
+			 yPos = "86.00"
+			 Width = "16.000000"
+			 Height = "16.000000"
+			 Left = "0"
+			 Right = "0"
+			 Up = "0"
+			 Down = "0"
+			 BGColor = "da2121ff"
+			 PickRegion = "0 86 16 16"
+			 Texture = "scroll12"
+			 PickRegion = "0 86 16 16"
+			 MsgXPress = "MoveControllerLeft"
+		>
+		</GraphicButton>
+		<GraphicButton ID = "3"
+			xPos = "90.000000"
+			yPos = "86.00"
+			Width = "16.000000"
+			Height = "16.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+			Down = "0"
+			BGColor = "da2121ff"
+			Texture = "scroll13"
+			 PickRegion = "90 86 16 16"
+			 MsgXPress = "MoveControllerRight"
+		>
+		</GraphicButton>
+	</Window>
+	
+	<Window ID = "50"
+	 	xPos = "267.000000"
+	 	yPos = "145.00"
+		Width = "128.000000"
+		Height = "128.000000"
+       		State = "3"
+	>
+		<GraphicButton ID = "0"
+		 	xPos = "0.000000"
+       			yPos = "54.00"
+			Width = "108.000000"
+			Height = "64.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+			Down = "0"
+			BGColor = "ffffffff"
+			Texture = "cntrlr3"
+       		MsgXPress = "OnCheckControllers"
+		>
+		</GraphicButton>
+		<GraphicButton ID = "2"
+			 xPos = "0.000000"
+			 yPos = "86.00"
+			 Width = "16.000000"
+			 Height = "16.000000"
+			 Left = "0"
+			 Right = "0"
+			 Up = "0"
+			 Down = "0"
+			 BGColor = "0f6d00ff"
+			 PickRegion = "0 86 16 16"
+			 Texture = "scroll12"
+			 PickRegion = "0 86 16 16"
+			 MsgXPress = "MoveControllerLeft"
+		>
+		</GraphicButton>
+		<GraphicButton ID = "3"
+			xPos = "90.000000"
+			yPos = "86.00"
+			Width = "16.000000"
+			Height = "16.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+			Down = "0"
+			BGColor = "0f6d00ff"
+			 PickRegion = "90 86 16 16"
+			 MsgXPress = "MoveControllerRight"
+			Texture = "scroll13"
+		>
+		</GraphicButton>
+	</Window>
+	
+	<Window ID = "60"
+	 	xPos = "267.000000"
+		yPos = "200.00"
+		Width = "128.000000"
+		Height = "128.000000"
+       		State = "3"
+	>
+		<GraphicButton ID = "0"
+			xPos = "0.000000"
+			yPos = "54.00"
+			Width = "108.000000"
+			Height = "64.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+			Down = "0"
+			BGColor = "ffffffff"
+			Texture = "cntrlr4"
+       			MsgXPress = "OnCheckControllers"
+		>
+		</GraphicButton>
+		<GraphicButton ID = "2"		 
+			xPos = "0.000000"
+			yPos = "86.00"
+			Width = "16.000000"
+			Height = "16.000000"
+			Left = "0"
+			Right = "0"
+			Up = "0"
+			Down = "0"
+			BGColor = "ca9300ff"
+			PickRegion = "0 86 16 16"
+			Texture = "scroll12"
+			 PickRegion = "0 86 16 16"
+			 MsgXPress = "MoveControllerLeft"
+		>
+		</GraphicButton>
+		<GraphicButton ID = "3"
+			 xPos = "90.000000"
+			 yPos = "86.00"
+			 Width = "16.000000"
+			 Height = "16.000000"
+			 Left = "0"
+			 Right = "0"
+			 Up = "0"
+			 Down = "0"
+			 BGColor = "ca9300ff"
+			 PickRegion = "90 86 16 16"
+			 MsgXPress = "MoveControllerRight"
+			 Texture = "scroll13"
+		>
+		</GraphicButton>
+	</Window>
+	<!-- END CONTROLLERS -->
+
+
+
+
+
+
+	
+	<!-- PAGE TITLE -->
+	<Window ID = "100"
+	 	xPos = "45.000000"
+	 	yPos = "4.00"
+	 	Width = "0.000000"
+	 	Height = "0.000000"
+	 	State = "1"
+	>
+		<TextButton ID = "1"
+		 	xPos = "0.000000"
+		 	yPos = "13.00"
+		 	Width = "400.000000"
+		 	Height = "60.000000"
+		 	Left = "0"
+		 	Right = "0"
+		 	Up = "0"
+		 	Down = "0"
+		 	BGColor = ""
+		 	FontColor = "dcdcdcff"
+		 	Font = "1"
+			Justification = "0"
+			VJustification = "1"
+		 	Text = "$1079"
+		>
+		</TextButton>
+	</Window>
+	<!-- END PAGE TITLE -->
+
+
+	
+	<!-- HELP TEXT -->
+	<Window ID = "90"
+	 	xPos = "560.000000"
+	 	yPos = "418.00"
+	 	Width = "0.000000"
+	 	Height = "0.000000"
+	 	State = "2"
+	>
+		<GraphicButton ID = "7"
+		 	xPos = "10.000000"
+		 	yPos = "0.00"
+		 	Width = "32.000000"
+		 	Height = "32.000000"
+		 	Left = "0"
+		 	Right = "0"
+		 	Up = "0"
+		 	Down = "0"
+		 	BGColor = "ffffffff"
+		 	Texture = "bx"
+		>
+		</GraphicButton>
+		<TextButton ID = "6"
+		 	xPos = "40.000000"
+		 	yPos = "0.00"
+		 	Width = "190.000000"
+		 	Height = "32.000000"
+		 	Left = "0"
+		 	Right = "0"
+		 	Up = "0"
+		 	Down = "0"
+		 	BGColor = ""
+		 	FontColor = "dcdcdcff"
+			Font = "4"
+			Justification = "0"
+			VJustification = "1"
+			Text = "$9"
+			MsgXPress = "OnTeamSelectDone"
+			PickRegion = "10 0 130 30"
+		>
+		</TextButton>
+	</Window>
+	<!-- END HELP TEXT -->
+	
+
+
+
+</Screen>
