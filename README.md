@@ -1,5 +1,5 @@
 # Cricket 07 Widescreen Fix
-Widescreen (16:9) HUD implementation for EA Cricket 2007 on PC through custom RFEs.
+Widescreen (16:9) 3D & 2D aspect ratio implementation for EA Cricket 2007 on PC.
 https://www.youtube.com/watch?v=vx2ewhMd8_U
 ![Cricket07 2023-09-23 13-40-06](https://github.com/retrobone/Cricket07WidescreenHUDFix/assets/93852813/4c1a232a-c976-4685-87a6-1a99f423aed4)
 ![Cricket07 2023-09-22 16-20-28](https://github.com/retrobone/Cricket07WidescreenHUDFix/assets/93852813/28dc78f5-420a-4efd-8173-7bc164db5cbc)
